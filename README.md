@@ -38,7 +38,7 @@
    使用以下命令将项目克隆到本地：
 
    ```shell
-   git clone https://github.com/your_username/your_project_name.git
+   git clone https://github.com/APLaS-Plus/OPEN-IS-OPEN-A-YOLO-based-PVZ-Automated-Whack-a-Mole-Script-.git
    cd your_project_name
    ```
 
