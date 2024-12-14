@@ -1,0 +1,21 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: datasets/ZVP # dataset root dir
+train: images/train # train images (relative to 'path') 4 images
+val: images/val # val images (relative to 'path') 4 images
+# test:  # test images (optional)
+# Classes (80 COCO classes)
+names:
+  0: zombie
+  1: sun
+  2: diamond
+  3: Diamond
+  4: Coin_gold_dollar
+  5: Coin_silver_dollar
+  ## past classes
+  # 0: nomal_zombie
+  # 1: conehead_zombie
+  # 2: buckethead_zombie
+  # 3: Sun
+  # 4: Diamond
+  # 5: Coin_gold_dollar
+  # 6: Coin_silver_dollar

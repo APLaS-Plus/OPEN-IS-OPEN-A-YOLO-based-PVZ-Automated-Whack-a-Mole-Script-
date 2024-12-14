@@ -1,0 +1,24 @@
+﻿<Properties>
+  <Bullets id="intro" color="#666666" font="FONT_CALIBRI11" width="360">
+		<Bullet id="Bullet1" image="common/images/common/bullet_short" spacing="10">Play 50 Adventure levels through night, fog, a pool and more.</Bullet>
+		<Bullet id="Bullet2" image="common/images/common/bullet_short" spacing="10">Unlock all five game modes and the Almanac.</Bullet>
+		<Bullet id="Bullet3" image="common/images/common/bullet_short" spacing="10">Battle 26 types of zombies and earn 49 zombie-zapping plants.</Bullet>
+		<Bullet id="Bullet4" image="common/images/common/bullet_short">PopCap remembers your purchase if you ever need to re-download.</Bullet>
+	</Bullets>
+  <Bullets id="outro1" color="#666666" font="FONT_CALIBRI11" width="200">
+		<Bullet id="Bullet1" image="common/images/common/bullet_tall" spacing="10">Play 50 Adventure levels through night, fog, a pool and more.</Bullet>
+		<Bullet id="Bullet2" image="common/images/common/bullet_tall" spacing="5">Unlock all five game modes and the Almanac.</Bullet>
+	</Bullets>
+  <Bullets id="outro2" color="#666666" font="FONT_CALIBRI11" width="200">
+		<Bullet id="Bullet1" image="common/images/common/bullet_tall" spacing="10">Battle 26 types of zombies and earn 49 zombie-zapping plants.</Bullet>
+		<Bullet id="Bullet2" image="common/images/common/bullet_tall" spacing="5">PopCap remembers your purchase if you ever need to re-download.</Bullet>
+	</Bullets>
+  <String id="TrialScreenShotPath">custom/images/game_screens/</String>
+  <String id="TrialScreenShotNames">screenshot1,screenshot2,screenshot3,screenshot4</String>
+  <String id="TrialScreenShotCoords">41,128</String>
+  <String id="GameTitle">Plants vs. Zombies</String>
+  <String id="MessageTrialScreenPreBullet">Get ready to soil your plants!</String>
+  <String id="MessageExpireScreenPreBullet">Buy the game now for unlimited play!</String>
+  <String id="GetMoreGamesURL">http://www.popcap.com/moregames/?whid=56:3:3:4:52</String>
+  <String id="CopyrightDisclaimer">©2009 PopCap Games, Inc. Full copyright and trademark information is available in the game's Readme file. All rights reserved.</String>
+</Properties>

@@ -1,0 +1,16 @@
+# If version error occurs, try installing the author's recommended version!!!
+# For Object Detection
+ultralytics
+torch
+numpy
+
+# For Graphical User Interface
+opencv-python
+pillow
+
+# For GUI Automation
+pygetwindow
+pyautogui
+
+# For Boss Key
+pynput

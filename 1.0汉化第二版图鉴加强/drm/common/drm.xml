@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Properties>
+	<Layout screen="APScreen">
+		<Image x="0" y="0" src="common/images/registration/reg_bg" />
+		<Image x="10" y="10" src="common/images/common/popcap_logo" />
+		<Image x="55" y="235" src="common/images/registration/editbox_bg" />
+		<Image x="406" y="501" src="common/images/registration/lost_your_email" />
+		<Image x="116" y="501" src="common/images/registration/have_reg_key" />
+		<Text x="108" y="50" color="#EB1130" font="FONT_OMNESMEDIUM24" id="GameTitle" />
+		<Text x="108" y="78" color="#888888" font="FONT_OMNESREGULAR14" id="!prog:string.format(Str_TrialVersion, gScreen:GetTimeLeftString())" />
+		<Text x="83" y="127" color="#3B94BB" font="FONT_OMNESMEDIUM18" id="HeaderAPScreen" />
+		<Text x="83" y="167" color="#666666" font="FONT_CALIBRI12" id="MessageAPScreen" />
+		<Text x="83" y="272" color="#000000" font="FONT_OMNESREGULAR14" id="OrderNumber" />
+		<Text x="116" y="526" valign="center" width="640" height="25" color="#999999" font="!sys:Arial:8" id="CopyrightDisclaimer" />
+		<Text x="83" y="228" color="#EB1130" font="FONT_OMNESMEDIUM14" id="!prog:gScreen.mError" />
+		<Button id="Cancel" x="389" y="388" normal="common/images/registration/btn_cancel" over="common/images/registration/btn_cancel_over" down="common/images/registration/btn_cancel_down" function="Cancel" />
+		<Button id="Register" x="175" y="388" normal="common/images/registration/btn_register" over="common/images/registration/btn_register_over" down="common/images/registration/btn_register_down" function="Register" />
+		<Button id="ManualAP" x="282" y="496" normal="common/images/registration/btn_enter_key_manual" over="common/images/registration/btn_enter_key_manual_over" down="common/images/registration/btn_enter_key_manual_down" function="EnterRegKey" />
+		<Button id="ResendReceipt" x="566" y="496" normal="common/images/registration/btn_lost_email_rec" over="common/images/registration/btn_lost_email_rec_over" down="common/images/registration/btn_lost_email_rec_down" function="ResendReceipt" />
+		<Button id="Help" x="588" y="16" normal="common/images/common/btn_help" over="common/images/common/btn_help_over" down="common/images/common/btn_help_down" function="ShowHelp" />
+		<Button id="Security" x="655" y="16" normal="common/images/common/btn_security" over="common/images/common/btn_security_over" down="common/images/common/btn_security_down" function="ShowSecurity" />
+		<Button id="BBB" x="60" y="489" normal="common/images/common/bbb" function="ShowBBB" />
+		<Edit id="OrderNum" x="81" y="283" width="604" />
+	</Layout>
+
+	<Layout screen="ConnectBegin">
+		<Image x="0" y="0" src="common/images/registration/reg_bg" />
+		<Image x="10" y="10" src="common/images/common/popcap_logo" />
+		<Image x="45" y="292" src="common/images/registration/monitor" />
+		<Image x="200" y="291" src="common/images/registration/connecting" />
+		<Image x="200" y="291" src="common/images/registration/success" />
+		<Image x="587" y="258" src="common/images/registration/internet" />
+		<Text x="108" y="50" color="#EB1130" font="FONT_OMNESMEDIUM24" id="GameTitle" />
+		<Text x="108" y="78" color="#888888" font="FONT_OMNESREGULAR14" id="!prog:string.format(Str_TrialVersion, gScreen:GetTimeLeftString())" />
+		<Text x="83" y="127" color="#3B94BB" font="FONT_OMNESMEDIUM18" id="!prog:gConnectBegin_Header" />
+		<Text x="83" y="167" color="#666666" font="FONT_CALIBRI12" id="!prog:gConnectBegin_Message" />
+		<Text x="83" y="195" width="605" height="66" color="#666666" font="FONT_CALIBRI12" id="!prog:gConnectBegin_Details" />
+		<Text x="116" y="526" valign="center" width="640" height="25" color="#999999" font="!sys:Arial:8" id="CopyrightDisclaimer" />
+		<Button id="Cancel" x="389" y="388" normal="common/images/registration/btn_cancel" over="common/images/registration/btn_cancel_over" down="common/images/registration/btn_cancel_down" function="Cancel" />
+		<Button id="Retry" x="175" y="388" normal="common/images/registration/btn_retry" over="common/images/registration/btn_retry_over" down="common/images/registration/btn_retry_down" function="Retry" />
+		<Button id="Help" x="588" y="16" normal="common/images/common/btn_help" over="common/images/common/btn_help_over" down="common/images/common/btn_help_down" function="ShowHelp" />
+		<Button id="Security" x="655" y="16" normal="common/images/common/btn_security" over="common/images/common/btn_security_over" down="common/images/common/btn_security_down" function="ShowSecurity" />
+		<Button id="BBB" x="60" y="489" normal="common/images/common/bbb" function="ShowBBB" />
+	</Layout>
+
+	<Layout screen="ConnectCheck">
+		<Image x="0" y="0" src="common/images/registration/reg_bg" />
+		<Image x="10" y="10" src="common/images/common/popcap_logo" />
+		<Image x="45" y="292" src="common/images/registration/monitor" />
+		<Image x="200" y="291" src="common/images/registration/connecting" />
+		<Image x="587" y="258" src="common/images/registration/internet" />
+		<Text x="108" y="50" color="#EB1130" font="FONT_OMNESMEDIUM24" id="GameTitle" />
+		<Text x="108" y="78" color="#888888" font="FONT_OMNESREGULAR14" id="!prog:string.format(Str_TrialVersion, gScreen:GetTimeLeftString())" />
+		<Text x="116" y="526" valign="center" width="640" height="25" color="#999999" font="!sys:Arial:8" id="CopyrightDisclaimer" />
+		<Text x="83" y="127" color="#3B94BB" font="FONT_OMNESMEDIUM18" id="!prog:gConnectCheck_Header" />
+		<Text x="83" y="167" color="#666666" font="FONT_CALIBRI12" id="!prog:gConnectCheck_Message" />
+		<Button id="BBB" x="60" y="489" normal="common/images/common/bbb" function="ShowBBB" />
+	</Layout>
+
+	<Layout screen="EndScreen">
+		<Image x="0" y="0" src="common/images/outro/outro_bg" />
+		<Image x="10" y="10" src="common/images/common/popcap_logo" />
+		<Image x="43" y="105" src="box_art" />
+		<Image x="546" y="408" src="common/images/outro/try_more_boxes" />
+		<Image x="306" y="160" src="!prog:return gBulletManager:GetImage('outro1')" />
+		<Image x="534" y="160" src="!prog:return gBulletManager:GetImage('outro2')" />
+		<Image x="491" y="328" src="common/images/common/already_purchased_label" />
+		<Text x="108" y="50" color="#EB1130" font="FONT_OMNESMEDIUM24" id="GameTitle" />
+		<Text x="108" y="78" color="#888888" font="FONT_OMNESREGULAR14" id="!prog:string.format(Str_TrialVersion, gScreen:GetTimeLeftString())" />
+		<Text x="305" y="122" color="#EB1130" font="FONT_OMNESMEDIUM20" id="!prog:string.format(Str_HeaderTimeLeftLabel, gScreen:GetTimeLeftString())" />
+		<Text x="308" y="155" color="#666666" font="FONT_CALIBRI11" id="MessageExpireScreenPreBullet" />
+		<Text x="305" y="402" color="#016392" font="FONT_OMNESMEDIUM18" id="HeaderTryMoreFreeGames" />
+		<Text x="309" y="418" width="200" color="#000000" font="FONT_CALIBRI12" id="MessageTryMoreFreeGames" />
+		<Text x="116" y="526" valign="center" width="640" height="25" color="#999999" font="!sys:Arial:8" id="CopyrightDisclaimer" />
+		<Button id="BuyNow" x="304" y="276" normal="common/images/outro/btn_buy_now" over="common/images/outro/btn_buy_now_over" down="common/images/outro/btn_buy_now_down" function="BuyNow" />
+		<Button id="AlreadyPurchased" x="630" y="323" normal="common/images/common/already_purchased" over="common/images/common/already_purchased_over" down="common/images/common/already_purchased_down" function="APScreen" />
+		<Button id="GetMore" x="301" y="465" normal="common/images/outro/btn_get_more" over="common/images/outro/btn_get_more_over" down="common/images/outro/btn_get_more_down" function="GetMoreGames" />
+		<Button id="Help" x="588" y="16" normal="common/images/common/btn_help" over="common/images/common/btn_help_over" down="common/images/common/btn_help_down" function="ShowHelp" />
+		<Button id="Security" x="655" y="16" normal="common/images/common/btn_security" over="common/images/common/btn_security_over" down="common/images/common/btn_security_down" function="ShowSecurity" />
+		<Button id="BBB" x="60" y="489" normal="common/images/common/bbb" function="ShowBBB" />
+	</Layout>
+	
+	<Layout screen="HomeScreen">
+	</Layout>
+
+	<Layout screen="ExpireScreen">
+		<Image x="0" y="0" src="common/images/outro/outro_bg" />
+		<Image x="10" y="10" src="common/images/common/popcap_logo" />
+		<Image x="43" y="105" src="box_art" />
+		<Image x="546" y="408" src="common/images/outro/try_more_boxes" />
+		<Image x="306" y="160" src="!prog:return gBulletManager:GetImage('outro1')" />
+		<Image x="534" y="160" src="!prog:return gBulletManager:GetImage('outro2')" />
+		<Image x="491" y="328" src="common/images/common/already_purchased_label" />
+		<Text x="108" y="50" color="#EB1130" font="FONT_OMNESMEDIUM24" id="GameTitle" />
+		<Text x="108" y="78" color="#888888" font="FONT_OMNESREGULAR14" id="!prog:string.format(Str_TrialVersion, gScreen:GetTimeLeftString())" />
+		<Text x="305" y="130" color="#EB1130" font="FONT_OMNESMEDIUM20" id="HeaderExpireScreenTimeLeftLabel" />
+		<Text x="308" y="155" color="#666666" font="FONT_CALIBRI11" id="MessageExpireScreenPreBullet" />
+		<Text x="305" y="402" color="#016392" font="FONT_OMNESMEDIUM18" id="HeaderTryMoreFreeGames" />
+		<Text x="309" y="418" width="200" color="#000000" font="FONT_CALIBRI12" id="MessageTryMoreFreeGames" />
+		<Text x="116" y="526" valign="center" width="640" height="25" color="#999999" font="!sys:Arial:8" id="CopyrightDisclaimer" />
+		<Button id="BuyNow" x="304" y="276" normal="common/images/outro/btn_buy_now" over="common/images/outro/btn_buy_now_over" down="common/images/outro/btn_buy_now_down" function="BuyNow" />
+		<Button id="AlreadyPurchased" x="630" y="323" normal="common/images/common/already_purchased" over="common/images/common/already_purchased_over" down="common/images/common/already_purchased_down" function="APScreen" />
+		<Button id="GetMore" x="301" y="465" normal="common/images/outro/btn_get_more" over="common/images/outro/btn_get_more_over" down="common/images/outro/btn_get_more_down" function="GetMoreGames" />
+		<Button id="Help" x="588" y="16" normal="common/images/common/btn_help" over="common/images/common/btn_help_over" down="common/images/common/btn_help_down" function="ShowHelp" />
+		<Button id="Security" x="655" y="16" normal="common/images/common/btn_security" over="common/images/common/btn_security_over" down="common/images/common/btn_security_down" function="ShowSecurity" />
+		<Button id="BBB" x="60" y="489" normal="common/images/common/bbb" function="ShowBBB" />
+	</Layout>
+
+	<Layout screen="ManualAPScreen">
+		<Image x="0" y="0" src="common/images/registration/reg_bg" />
+		<Image x="10" y="10" src="common/images/common/popcap_logo" />
+		<Image x="55" y="235" src="common/images/registration/editbox_bg" />
+		<Image x="116" y="501" src="common/images/registration/lost_your_email" />
+		<Text x="108" y="50" color="#EB1130" font="FONT_OMNESMEDIUM24" id="GameTitle" />
+		<Text x="108" y="78" color="#888888" font="FONT_OMNESREGULAR14" id="!prog:string.format(Str_TrialVersion, gScreen:GetTimeLeftString())" />
+		<Text x="83" y="127" color="#3B94BB" font="FONT_OMNESMEDIUM18" id="HeaderManualAPScreen" />
+		<Text x="83" y="167" color="#666666" font="FONT_CALIBRI12" id="MessageManualAPScreen" />
+		<Text x="83" y="272" color="#000000" font="FONT_OMNESREGULAR14" id="RegistrationKey" />
+		<Text x="116" y="526" valign="center" width="640" height="25" color="#999999" font="!sys:Arial:8" id="CopyrightDisclaimer" />
+		<Text x="83" y="228" color="#EB1130" font="FONT_OMNESMEDIUM14" id="!prog:gScreen.mError" />
+		<Button id="Cancel" x="389" y="388" normal="common/images/registration/btn_cancel" over="common/images/registration/btn_cancel_over" down="common/images/registration/btn_cancel_down" function="Cancel" />
+		<Button id="Register" x="175" y="388" normal="common/images/registration/btn_register" over="common/images/registration/btn_register_over" down="common/images/registration/btn_register_down" function="Register" />
+		<Button id="ResendReceipt" x="281" y="496" normal="common/images/registration/btn_lost_email_rec" over="common/images/registration/btn_lost_email_rec_over" down="common/images/registration/btn_lost_email_rec_down" function="ResendReceipt" />
+		<Button id="Help" x="588" y="16" normal="common/images/common/btn_help" over="common/images/common/btn_help_over" down="common/images/common/btn_help_down" function="ShowHelp" />
+		<Button id="Security" x="655" y="16" normal="common/images/common/btn_security" over="common/images/common/btn_security_over" down="common/images/common/btn_security_down" function="ShowSecurity" />
+		<Button id="BBB" x="60" y="489" normal="common/images/common/bbb" function="ShowBBB" />
+		<Edit id="RegKey" x="81" y="283" width="604" height="33" />
+	</Layout>
+	
+	<Layout screen="RegFailed">
+		<Image x="0" y="0" src="common/images/registration/reg_bg" />
+		<Image x="10" y="10" src="common/images/common/popcap_logo" />
+		<Image x="54" y="171" src="common/images/registration/error_bg" />
+		<Text x="108" y="50" color="#EB1130" font="FONT_OMNESMEDIUM24" id="GameTitle" />
+		<Text x="108" y="78" color="#888888" font="FONT_OMNESREGULAR14" id="!prog:string.format(Str_TrialVersion, gScreen:GetTimeLeftString())" />
+		<Text x="83" y="127" color="#3B94BB" font="FONT_OMNESMEDIUM18" id="!prog:gErrorScreen_Header" />
+		<Text x="83" y="155" width="616" color="#EB1130" font="FONT_CALIBRI12" id="!prog:gErrorScreen_Message" />
+		<Text x="83" y="200" width="606" color="#666666" font="FONT_CALIBRI12" id="!prog:gErrorScreen_Details" />
+		<Text x="116" y="526" valign="center" width="640" height="25" color="#999999" font="!sys:Arial:8" id="CopyrightDisclaimer" />
+		<Button id="Cancel" x="389" y="388" normal="common/images/registration/btn_cancel" over="common/images/registration/btn_cancel_over" down="common/images/registration/btn_cancel_down" function="Cancel" />
+		<Button id="Retry" x="175" y="388" normal="common/images/registration/btn_retry" over="common/images/registration/btn_retry_over" down="common/images/registration/btn_retry_down" function="Retry" />
+		<Button id="Help" x="588" y="16" normal="common/images/common/btn_help" over="common/images/common/btn_help_over" down="common/images/common/btn_help_down" function="ShowHelp" />
+		<Button id="Security" x="655" y="16" normal="common/images/common/btn_security" over="common/images/common/btn_security_over" down="common/images/common/btn_security_down" function="ShowSecurity" />
+		<Button id="BBB" x="60" y="489" normal="common/images/common/bbb" function="ShowBBB" />
+	</Layout>
+
+	<Layout screen="RegSucceeded">
+		<Image x="0" y="0" src="common/images/registration/reg_bg" />
+		<Image x="10" y="10" src="common/images/common/popcap_logo" />
+		<Image x="54" y="185" src="common/images/registration/error_bg" />
+		<Image x="92" y="227" src="common/images/registration/green_check" />
+		<Text x="108" y="50" color="#EB1130" font="FONT_OMNESMEDIUM24" id="GameTitle" />
+		<Text x="83" y="158" color="#3B94BB" font="FONT_OMNESMEDIUM18" id="HeaderRegSucceeded" />
+		<Text x="192" y="249" width="616" color="#666666" font="FONT_CALIBRI12" id="MessageRegSucceeded" />
+		<Text x="192" y="278" width="616" color="#666666" font="FONT_CALIBRI12" id="DetailsRegSucceeded" />
+		<Text x="116" y="526" valign="center" width="640" height="25" color="#999999" font="!sys:Arial:8" id="CopyrightDisclaimer" />
+		<Button id="Continue" x="285" y="388" normal="common/images/registration/btn_continue" over="common/images/registration/btn_continue_over" down="common/images/registration/btn_continue_down" function="Continue" />
+		<Button id="Help" x="588" y="16" normal="common/images/common/btn_help" over="common/images/common/btn_help_over" down="common/images/common/btn_help_down" function="ShowHelp" />
+		<Button id="Security" x="655" y="16" normal="common/images/common/btn_security" over="common/images/common/btn_security_over" down="common/images/common/btn_security_down" function="ShowSecurity" />
+		<Button id="BBB" x="60" y="489" normal="common/images/common/bbb" function="ShowBBB" />
+	</Layout>
+
+	<Layout screen="ResendReceiptScreen">
+		<Image x="0" y="0" src="common/images/registration/reg_bg" />
+		<Image x="10" y="10" src="common/images/common/popcap_logo" />
+		<Image x="55" y="235" src="common/images/registration/editbox_bg" />
+		<Text x="108" y="50" color="#EB1130" font="FONT_OMNESMEDIUM24" id="GameTitle" />
+		<Text x="108" y="78" color="#888888" font="FONT_OMNESREGULAR14" id="!prog:string.format(Str_TrialVersion, gScreen:GetTimeLeftString())" />
+		<Text x="83" y="127" color="#3B94BB" font="FONT_OMNESMEDIUM18" id="HeaderResendReceiptScreen" />
+		<Text x="83" y="155" width="616" color="#666666" font="FONT_CALIBRI12" id="MessageResendReceiptScreen" />
+		<Text x="83" y="272" color="#000000" font="FONT_OMNESREGULAR14" id="OrderEmailAddress" />
+		<Text x="469" y="272" color="#000000" font="FONT_OMNESREGULAR14" id="LastFourCCDigits" />
+		<Text x="116" y="526" valign="center" width="640" height="25" color="#999999" font="!sys:Arial:8" id="CopyrightDisclaimer" />
+		<Text x="83" y="228" color="#EB1130" font="FONT_OMNESMEDIUM14" id="!prog:gScreen.mError" />
+		<Button id="Cancel" x="389" y="388" normal="common/images/registration/btn_cancel" over="common/images/registration/btn_cancel_over" down="common/images/registration/btn_cancel_down" function="Cancel" />
+		<Button id="SendReceipt" x="175" y="388" normal="common/images/registration/btn_receipt" over="common/images/registration/btn_receipt_over" down="common/images/registration/btn_receipt_down" function="SendReceipt" />
+		<Button id="Help" x="588" y="16" normal="common/images/common/btn_help" over="common/images/common/btn_help_over" down="common/images/common/btn_help_down" function="ShowHelp" />
+		<Button id="Security" x="655" y="16" normal="common/images/common/btn_security" over="common/images/common/btn_security_over" down="common/images/common/btn_security_down" function="ShowSecurity" />
+		<Button id="BBB" x="60" y="489" normal="common/images/common/bbb" function="ShowBBB" />
+		<Edit id="OrderEmail" x="81" y="283" width="357" />
+		<Edit id="LastFourCC" x="468" y="283" width="86" />
+	</Layout>
+	
+	<Layout screen="PurchasedEndScreen">
+		<Image x="0" y="0" src="common/images/outro/outro_bg" />
+		<Image x="10" y="10" src="common/images/common/popcap_logo" />
+		<Image x="43" y="105" src="box_art" />
+		<Image x="546" y="408" src="common/images/outro/try_more_boxes" />
+		<Image x="306" y="160" src="!prog:return gBulletManager:GetImage('outro1')" />
+		<Image x="534" y="160" src="!prog:return gBulletManager:GetImage('outro2')" />
+		<Text x="108" y="50" color="#EB1130" font="FONT_OMNESMEDIUM24" id="GameTitle" />
+		<Text x="308" y="155" color="#666666" font="FONT_CALIBRI11" id="MessageExpireScreenPreBullet" />
+		<Text x="305" y="402" color="#016392" font="FONT_OMNESMEDIUM18" id="HeaderTryMoreFreeGames" />
+		<Text x="309" y="418" width="200" color="#000000" font="FONT_CALIBRI12" id="MessageTryMoreFreeGames" />
+		<Text x="116" y="526" valign="center" width="640" height="25" color="#999999" font="!sys:Arial:8" id="CopyrightDisclaimer" />
+		<Button id="GetMore" x="301" y="465" normal="common/images/outro/btn_get_more" over="common/images/outro/btn_get_more_over" down="common/images/outro/btn_get_more_down" function="GetMoreGames" />
+		<Button id="Help" x="588" y="16" normal="common/images/common/btn_help" over="common/images/common/btn_help_over" down="common/images/common/btn_help_down" function="ShowHelp" />
+		<Button id="Security" x="655" y="16" normal="common/images/common/btn_security" over="common/images/common/btn_security_over" down="common/images/common/btn_security_down" function="ShowSecurity" />
+		<Button id="BBB" x="60" y="489" normal="common/images/common/bbb" function="ShowBBB" />
+	</Layout>
+
+	<Layout screen="TrialScreen">
+		<Image x="0" y="0" src="common/images/intro/intro_bg" />
+		<Image x="10" y="10" src="common/images/common/popcap_logo" />
+		<Image x="16" y="108" src="common/images/intro/screenshot_bg" />
+		<Image x="564" y="125" halign="center" valign="center" src="logo" />
+		<Image x="390" y="224" src="!prog:return gBulletManager:GetImage('intro')" />
+		<Image x="116" y="501" src="common/images/common/already_purchased_label" />
+		<Text x="108" y="50" color="#EB1130" font="FONT_OMNESMEDIUM24" id="GameTitle" />
+		<Text x="108" y="78" color="#888888" font="FONT_OMNESREGULAR14" id="!prog:string.format(Str_TrialVersion, gScreen:GetTimeLeftString())" />
+		<Text x="390" y="195" halign="center" width="355" color="#3B94BB" font="FONT_OMNESMEDIUM14" id="MessageTrialScreenPreBullet" />
+		<Text x="116" y="526" valign="center" width="640" height="25" color="#999999" font="!sys:Arial:8" id="CopyrightDisclaimer" />
+		<Button id="ScreenshotPause" x="40" y="376" normal="common/images/intro/btn_screenshot_pause" over="common/images/intro/btn_screenshot_pause_over" down="common/images/intro/btn_screenshot_pause_down" function="PauseScreenShotCycler" />
+		<Button id="ScreenshotPlay" x="40" y="376" normal="common/images/intro/btn_screenshot_play" over="common/images/intro/btn_screenshot_play_over" down="common/images/intro/btn_screenshot_play_down" function="ResumeScreenShotCycler" />
+		<Button id="ScreenshotPrev" x="283" y="376" normal="common/images/intro/btn_screenshot_prev" over="common/images/intro/btn_screenshot_prev_over" down="common/images/intro/btn_screenshot_prev_down" function="ShowPrevSS" />
+		<Button id="ScreenshotNext" x="322" y="376" normal="common/images/intro/btn_screenshot_next" over="common/images/intro/btn_screenshot_next_over" down="common/images/intro/btn_screenshot_next_down" function="ShowNextSS" />
+		<Button id="PlayTrial" x="407" y="413" normal="common/images/intro/btn_play_trial" over="common/images/intro/btn_play_trial_over" down="common/images/intro/btn_play_trial_down" function="Play" />
+		<Button id="BuyNow" x="609" y="413" normal="common/images/intro/btn_buy_now" over="common/images/intro/btn_buy_now_over" down="common/images/intro/btn_buy_now_down" function="BuyNow" />
+		<Button id="AlreadyPurchased" x="255" y="496" normal="common/images/common/already_purchased" over="common/images/common/already_purchased_over" down="common/images/common/already_purchased_down" function="APScreen" />
+		<Button id="Help" x="588" y="16" normal="common/images/common/btn_help" over="common/images/common/btn_help_over" down="common/images/common/btn_help_down" function="ShowHelp" />
+		<Button id="Security" x="655" y="16" normal="common/images/common/btn_security" over="common/images/common/btn_security_over" down="common/images/common/btn_security_down" function="ShowSecurity" />
+		<Button id="BBB" x="60" y="489" normal="common/images/common/bbb" function="ShowBBB" />
+	</Layout>
+
+	<String id="BBBURL">http://www.bbbonline.org/cks.asp?id=10301231744429255</String>
+	<String id="ConnectCheckURL">"http://store.popcap.com/wrapper_connect.txt?n=" .. math.random(1, 100000)</String>
+	<String id="CopyrightDisclaimer">©2008 PopCap Games, Inc. Full copyright and trademark information is available in the game's Readme file. All rights reserved.</String>
+	<String id="CustomerSupportURL">http://www.popcap.com/support</String>
+	<String id="DetailsBuyBegin">After completing your purchase on the PopCap web site and receiving your&cr;Registration Key, the registration process should complete automatically.&cr;&cr;If this registration process does not complete, please ^:id=ManualAP,label=LinkLabelEnterRegKeyManually,font=FONT_CALIBRI12,color=#3B94BB,color_over=#D88400,function=EnterRegKey:^</String>
+	<String id="DetailsBuyConnectFail">You need to access the PopCap web site using an active internet connection in order to continue. Please verify that your computer is online and can access the internet - typically through a dial-up modem or network card. Security software or firewalls that block internet access may also need to be set to allow this game access to the internet. Once your computer is online and the PopCap web site is accessible, please restart the purchase process.</String>
+	<String id="DetailsRegBegin">If the PopCap web site has been launched and has successfully provided your&cr;Registration Key, this registration process should complete automatically.&cr;&cr;If this process does not complete, please Retry or ^:id=ManualAP,label=LinkLabelEnterRegKeyManually,font=FONT_CALIBRI12,color=#3B94BB,color_over=#D88400,function=EnterRegKey:^</String>
+	<String id="DetailsRegConnectFail">You need to access the PopCap web site using an active internet connection in order to continue. Please verify that your computer is online and can access the internet - typically through a dial-up modem or network card. Security software or firewalls that block internet access may also need to be set to allow this game access to the internet. Once your computer is online and the PopCap web site is accessible, please restart the purchase process.</String>
+	<String id="DetailsRegSucceeded">Thanks for purchasing and registering your PopCap game!</String>
+	<String id="DetailsResendReceiptBegin">If the PopCap web site has been launched and has indicated that your order receipt email&cr;will be resent, please submit the info you receive here: ^:id=APLink,label=LinkLabelAlreadyPurchased,font=FONT_CALIBRI12,color=#3B94BB,color_over=#D88400,function=APScreen:^&cr;&cr;If you experience difficulties, please Retry or ^:id=APLink,label=LinkLabelContactCustomerSupport,font=FONT_CALIBRI12,color=#3B94BB,color_over=#D88400,function=ContactCustomerSupport:^</String>
+	<String id="DetailsResendReceiptConnectFail">You need to access the PopCap web site using an active internet connection in order to continue. Please verify that your computer is online and can access the internet - typically through a dial-up modem or network card. Security software or firewalls that block internet access may also need to be set to allow this game access to the internet. Once your computer is online and the PopCap web site is accessible, please restart the purchase process.</String>
+	<String id="EditFont">FONT_CALIBRI12</String>
+	<String id="ErrorAP">Please enter a valid order number</String>
+	<String id="ErrorLastFourCC">Please enter valid credit card digits</String>
+	<String id="ErrorManualAP">Please enter a valid Registration Key</String>
+	<String id="ErrorOrderEmail">Please enter a valid order email address</String>
+	<String id="HeaderAPScreen">Enter your purchase information</String>
+	<String id="HeaderBuyBegin">Purchase and registration in progress</String>
+	<String id="HeaderBuyConnect">Launching the PopCap web site</String>
+	<String id="HeaderBuyConnectFail">Game Purchase Cannot Proceed</String>
+	<String id="HeaderExpireScreenTimeLeftLabel">Game trial expired!</String>
+	<String id="HeaderManualAPScreen">Enter your registration information</String>
+	<String id="HeaderPurchaseScreen">Thank You for Purchasing</String>
+	<String id="HeaderRegBegin">Registration in Progress</String>
+	<String id="HeaderRegConnect">Launching the PopCap web site</String>
+	<String id="HeaderRegConnectFail">Registration Cannot Proceed</String>
+	<String id="HeaderRegFailed">Registration Failed</String>
+	<String id="HeaderRegSucceeded">Congratulations!</String>
+	<String id="HeaderResendReceiptBegin">Order Receipt Retrieval in Progress</String>
+	<String id="HeaderResendReceiptConnect">Launching the PopCap web site</String>
+	<String id="HeaderResendReceiptConnectFail">Request to Resend Receipt Failed</String>
+	<String id="HeaderResendReceiptScreen">Resend your order receipt information</String>
+	<String id="HeaderTimeLeftLabel">You Only Have %s</String>
+	<String id="HeaderTryMoreFreeGames">Try more free games</String>
+	<String id="Help">Help</String>
+	<String id="LastFourCCDigits">Last four credit card digits</String>
+	<String id="LinkLabelAlreadyPurchased">Already purchased this game?</String>
+	<String id="LinkLabelContactCustomerSupport">Contact Customer Support</String>
+	<String id="LinkLabelEnterRegKeyManually">Enter the Registration Key Manually</String>
+	<String id="LinkLabelLostEmailReceipt">Lost Your E-mail Receipt?</String>
+	<String id="MessageAPScreen">Register the game using the Order Number on your web site order receipt or email receipt.</String>
+	<String id="MessageBuyBegin">The purchase process has begun on the PopCap web site.</String>
+	<String id="MessageBuyConnect">Please wait as you connect with the PopCap web site in your browser.</String>
+	<String id="MessageBuyConnectFail">An error occurred while connecting to the PopCap web site to purchase the game.</String>
+	<String id="MessageEndScreenPostBullet">No CD or Download necessary. It's easy!</String>
+	<String id="MessageEndScreenPreBullet">Buy the game today before your 60-minute trial expires!</String>
+	<String id="MessageExpireScreenPreBullet">Buy today and get all of this:</String>
+	<String id="MessageExpireScreenshot">Buy the game to jump back into play!</String>
+	<String id="MessageManualAPScreen">Copy the Registration Key from the PopCap web site or email receipt and paste it below.</String>
+	<String id="MessagePurchaseScreen">Please choose Continue to finish registering your game.</String>
+	<String id="MessageRegBegin">Your order information is being retrieved from the PopCap web site.</String>
+	<String id="MessageRegConnect">Please wait as you connect with the PopCap web site in your browser.</String>
+	<String id="MessageRegConnectFail">An error occurred while connecting to the PopCap web site for registration.</String>
+	<String id="MessageRegFailed">You have not successfully registered and unlocked your game.</String>
+	<String id="MessageRegSucceeded">You have successfully registered and unlocked this game.</String>
+	<String id="MessageResendReceiptBegin">Your information is being submitted to the PopCap web site for processing.</String>
+	<String id="MessageResendReceiptConnect">Please wait as you connect with the PopCap web site in your browser.</String>
+	<String id="MessageResendReceiptConnectFail">An error occurred while connecting to the PopCap web site to retrieve your receipt information.</String>
+	<String id="MessageResendReceiptScreen">Enter the email address and the last four digits of the credit card from your original order.&cr;The card numbers are for verification only. Your receipt will be resent and you will NOT be charged.</String>
+	<String id="MessageTrialScreenPostBullet">No CD or Download necessary. It's easy!</String>
+	<String id="MessageTrialScreenPreBullet">Buy the game today before your 60-minute trial expires!</String>
+	<String id="MessageTryMoreFreeGames">Over 50 more free games are just a download click away!</String>	
+	<String id="OrderEmailAddress">Order email address</String>
+	<String id="OrderNumber">Order Number</String>
+	<String id="Privacy">Privacy</String>
+	<String id="ReadmeURL">readme.html</String>
+	<String id="RegistrationKey">Registration Key</String>
+	<String id="Security">Security</String>
+	<String id="StoreURL">https://store.popcap.com/</String>
+	<String id="TextletFont0">FONT_CALIBRI12</String>
+	<String id="TextletFont1">FONT_CALIBRI12</String>
+	<String id="TextletHeaderFont">FONT_OMNESMEDIUM18</String>
+	<String id="TimeLeftPlural">%d Minutes Left</String>
+	<String id="TimeLeftSingular">%d Minute Left</String>
+	<String id="TimeLeftExpired">Expired</String>
+	<String id="TooltipFont">!sys:Arial:9,bold</String>
+	<String id="TooltipFontEx">!sys:Arial:9</String>
+	<String id="TrialVersion">(Trial Version - %s)</String>
+	
+	<String id="UpdateAvailableHeader">Update Available</String>
+	<String id="UpdateRequiredHeader">Update Required</String>
+	<String id="UpdateDownloadedHeader">Your Update is Ready to be Installed</String>	
+	<String id="UpdateDialogHeaderFont">FONT_OMNESMEDIUM18</String>
+	<String id="UpdateDialogTextFont">FONT_CALIBRI11</String>
+	<String id="MessageUpdateDownloadInBkgNote">NOTE: Your update will be downloaded in the background while you play your game.</String>
+	<String id="MessageUpdateDownloadBegunDetails">Please feel free to play your game. We will download the update in the background and prompt you to install once you finish your game.</String>
+	<String id="MessageUpdateDownloadBegun">Your Download has Begun!</String>
+	<String id="MessageUpdateInstallingUpdate">Installing your PopCap Update</String>
+	<String id="MessageUpdateInstalledSuccess">Installation Complete!</String>
+	<String id="MessageUpdateInstalledSuccessDetails">Your update has been successfully downloaded and installed.</String>
+	<String id="MessageUpdateInstalledFailed">Installation Failed!</String>
+	<String id="MessageUpdateInstalledFailedDetails">Please verify that you have the appropriate permissions to install software on this computer. Contact customer support for additional assistance.</String>
+	
+</Properties>

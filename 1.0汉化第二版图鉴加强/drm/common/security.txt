@@ -1,0 +1,7 @@
+^:F1^^666666^Why This is Safe^666666^^:F0^
+
+Your credit card info is sent over an SSL-encrypted connection to our servers. When it's verified, we unlock the game on your computer. If you need to re-install or install on another computer, you simply reconnect to verify your purchase info... so there's no risk of ever losing your game.
+
+We guarantee a refund if you are the victim of fraud or computer error, or within 30 days if you are dissatisfied with your purchase. We use proprietary PopCap technology and a VeriSign-approved site to assure that your purchase is efficient and secure!
+
+PopCap is a member of the Better Business Bureau's ^:F1LStr_BBBURL^OnLine Reliability Program^:^

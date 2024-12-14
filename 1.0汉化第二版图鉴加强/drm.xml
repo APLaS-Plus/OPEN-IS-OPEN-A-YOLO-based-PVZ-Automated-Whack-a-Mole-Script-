@@ -1,0 +1,22 @@
+﻿<Properties>
+  <Boolean id="AllowDRMLocking">true</Boolean>
+  <Boolean id="AllowDRMTiming">true</Boolean>
+  <Boolean id="CheckActivity">true</Boolean>
+  <String id="DisplayName">Plants vs. Zombies</String>
+  <String id="GameDataFile">PlantsVsZombies.dat</String>
+  <Boolean id="HasHomeScreen">false</Boolean>
+  <Integer id="Height">560</Integer>
+  <String id="InstallTag">PVZ_60</String>
+  <Integer id="MaxTime">60</Integer>
+  <String id="Offering">10375</String>
+  <String id="ProdLanguage">en-us</String>
+  <String id="ProdVersion">1.0.0.1051</String>
+  <Integer id="TipsShowPct">60</Integer>
+  <Integer id="UpdateFailedTimeOffset">3600</Integer>
+  <String id="UpdateSitePrefix">http://updates.popcap.com/pvz_updates_60min/</String>
+  <Integer id="UpdateSuccessTimeOffset">1209600</Integer>
+  <String id="UpdateSystemLanguage">eni</String>
+  <String id="UpdateSystemVersion">1.0</String>
+  <Boolean id="VistaCompliant">true</Boolean>
+  <Integer id="Width">760</Integer>
+</Properties>
