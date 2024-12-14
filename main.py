@@ -23,13 +23,13 @@ import cv2
 import sys
 from utils import bossKeyboard
 
-ROOTPATH = os.path.dirname(os.path.abspath(__file__)) # main.py所在目录
-MODEL = os.path.join(ROOTPATH, "models","1zombie_yolo11s.pt") # 模型路径
-WINDOWS_TITLE = "植物大战僵尸中文版" # 窗口标题
+ROOTPATH = os.path.dirname(os.path.abspath(__file__))  # main.py所在目录
+MODEL = os.path.join(ROOTPATH, "models", "1zombie_yolo11n.pt")  # 模型路径
+WINDOWS_TITLE = "植物大战僵尸中文版"  # 窗口标题
 ZOMBIE_SIZE = (0.06, 0.1)  # 僵尸的尺寸，宽度和高度占屏幕的比例
 MONEY = [10, 50, 100]  # 金币的值
 PROGRAM_RUNNING_FLAG = bossKeyboard.bossKeyboard(["q"])  # 全局变量，控制主程序的状态
-IS_DRAW = True # 是否绘画矩形框和展示图像
+IS_DRAW = True  # 是否绘画矩形框和展示图像
 
 
 def dropFakeZombie(_x, _y, _wx, _wy) -> bool:
@@ -151,7 +151,7 @@ def main():
                 clickIt(coins, window, shot, clickTimes=2)
                 clickIt(zombies, window, shot, clickTimes=3)
                 auto.click(window.left + 200, window.top + 200)
-                
+
             ed = time.time()
             sys.stdout.write(
                 f"\rdetect speed: {ed-bg} ms, moneyFound: {coinCounter}, diamand_count: {diamandCounter}, gold_count: {goldCounter}, silver_count: {silverCounter}"
